@@ -31,12 +31,12 @@ See wiringPi website: https://projects.drogon.net/raspberry-pi/wiringpi/download
 ### Using wHomeControlPi
 
 `````javascript
-var wHomeControlPi = require('wHomeControlPi');
+var whomecontrolpi = require('whomecontrolpi');
 
-wHomeControlPi.switchElroOn('00010', 'A');
-//wHomeControlPi.switchRevOn('A', 1);
+whomecontrolpi.switchElroOn('00010', 'A');
+//whomecontrolpi.switchRevOn('A', 1);
 
-wHomeControlPi.switchElroOff('00010', 'A');
-//wHomeControlPi.switchRevOff('A', 1);
+whomecontrolpi.switchElroOff('00010', 'A');
+//whomecontrolpi.switchRevOff('A', 1);
 
 `````
