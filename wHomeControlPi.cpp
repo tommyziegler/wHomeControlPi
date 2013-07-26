@@ -127,4 +127,4 @@ extern "C" void init(Handle<Object> target)
 	target->Set(String::NewSymbol("switchRevOff"), FunctionTemplate::New(Switch_REV_OFF)->GetFunction());
 }
 
-NODE_MODULE(wirelesshomecontrol, init);
+NODE_MODULE(wHomeControlPi, init);
