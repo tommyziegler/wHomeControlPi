@@ -58,7 +58,7 @@ static void SwitchRev(char* inSystemCode, int inUnitCode, const bool switchOn) {
 	}
 
 	int kPIN = 0;
-	HomeControl myHome = RCSwitch();
+	HomeControl myHome = HomeControl();
 	myHome.enableTransmit(kPIN);
 
 	if(switchOn) {
