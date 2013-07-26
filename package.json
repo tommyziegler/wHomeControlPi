@@ -3,7 +3,7 @@
   "name": "whomecontrolpi",
   "description": "Wireless Home Control in Node.JS for wiringPi lib on Raspberry Pi",
   "type": "git",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": "git://github.com/tommyziegler/wHomeControlPi.git"
   },
