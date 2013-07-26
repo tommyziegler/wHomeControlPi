@@ -18,11 +18,25 @@ wHomeControlPi is for controlling radio controlled remote control sockets / swit
 
 ###Install wiringPi
 
- sudo apt-get install git-core
- sudo apt-get update
- sudo apt-get upgrade
- git clone git://git.drogon.net/wiringPi
- cd wiringPi
- ./build
+`````bash
+sudo apt-get install git-core
+sudo apt-get update
+sudo apt-get upgrade
+git clone git://git.drogon.net/wiringPi
+cd wiringPi
+./build
+`````
+See wiringPi website: https://projects.drogon.net/raspberry-pi/wiringpi/download-and-install
 
-https://projects.drogon.net/raspberry-pi/wiringpi/download-and-install
+### Using wHomeControlPi
+
+`````javascript
+var wHomeControlPi = require('wHomeControlPi');
+
+wHomeControlPi.switchElroOn('00010', 'A');
+//wHomeControlPi.switchRevOn('A', 1);
+
+wHomeControlPi.switchElroOff('00010', 'A');
+//wHomeControlPi.switchRevOff('A', 1);
+
+`````
