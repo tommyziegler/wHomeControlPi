@@ -1,8 +1,8 @@
 {
   "targets": [
     {
-      "target_name": "wHomeControlPi",
-      "sources": [ "wHomeControlPi.cpp", "HomeControl.cpp", "HomeControl.h"],
+      "target_name": "whomecontrolpi",
+      "sources": [ "whomecontrolpi.cpp", "HomeControl.cpp", "HomeControl.h"],
       "include_dirs": [ "/usr/local/include" ],
       "ldflags": [ "-lwiringPi" ]
     }
