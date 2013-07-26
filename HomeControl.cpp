@@ -6,7 +6,7 @@
   Original license text:
 
   RCSwitch - Arduino libary for remote control outlet switches
-  Copyright (c) 2011 Suat …zgŸr.  All right reserved.
+  Copyright (c) 2011 Suat ï¿½zgï¿½r.  All right reserved.
 
   Contributors:
   - Andre Koehler / info(at)tomate-online(dot)de
@@ -43,7 +43,7 @@ unsigned long HomeControl::nReceivedValue = NULL;
 unsigned int HomeControl::nReceivedBitlength = 0;
 unsigned int HomeControl::nReceivedDelay = 0;
 unsigned int HomeControl::nReceivedProtocol = 0;
-unsigned int HomeControl::timings[HomeControl_MAX_CHANGES];
+unsigned int HomeControl::timings[HOMECTRLSWITCH_MAX_CHANGES];
 int HomeControl::nReceiveTolerance = 60;
 
 HomeControl::HomeControl() {
